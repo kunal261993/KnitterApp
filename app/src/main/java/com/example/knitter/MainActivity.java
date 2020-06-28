@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity implements ConnectivityRecei
     ConnectivityReceiver connectivityReceiver ;
 
     // TODO - Insert your API KEY here
-    private final static String API_KEY = "GhCSeO6Pewu6pmudc1UZWFv0eBdFF4Yk2Gid";
+    private final static String API_KEY = "Enter API Key here";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
