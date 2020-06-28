@@ -17,7 +17,7 @@ public class DatabaseClient {
         
         //creating the app database with Room database builder
         //PostDb is the name of the database
-        appDatabase = Room.databaseBuilder(mCtx, AppDatabase.class, "asdDb").build();
+        appDatabase = Room.databaseBuilder(mCtx, AppDatabase.class, "knitterDb").build();
     }
  
     public static synchronized DatabaseClient getInstance(Context mCtx) {
